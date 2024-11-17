@@ -1,15 +1,9 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router';
-import Navigation from "@/components/Navigation.vue";
+import TooltipExample from '@/components/TooltipExample.vue'
 </script>
 
 <template>
-  <header>
-    <Navigation />
-  </header>
-  <RouterView />
+  <TooltipExample />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
